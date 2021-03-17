@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <meta https-equiv='X-UA-Compatible' content='ie=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+  <link rel='stylesheet' href='stylesheet.css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap' rel='stylesheet'>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <link rel='shortcut icon' type='image/png' href='favicon-personal-website-anthracite.png'/>
+  <title>Olaf Willner</title>
+</head>
+<body>
+  <section class='pre-header'>
+    <div class='pre-header-inner'>
+      <div class='email'>
+        <a href='mailto:olafdrw@gmail.com'>olafdrw@gmail.com</a>
+      </div>
+    </div>
+  </section>
+  <section class='header'>
+    <div class='header-inner'>
+      <input type="checkbox" id="nav" class="hidden">
+      <label for="nav" class="nav-btn">
+            <i></i>
+            <i></i>
+            <i></i>
+      </label>
+      <div>
+        <a href='index.html' class='title'>Olaf Willner</a>
+      </div>
+      <div class="responsive-title-wrapper">
+        <a href='index.html' class='responsive-title'>Olaf Willner</a>
+      </div>
+        <div class='nav'>   <!-- "nav-wrapper" -->
+        <button href='contact.html' class='contact-button'>Contact</button>
+        <div class='nav-main'>
+          <a href='about.html' class='nav-title'>About</a>
+          <a href='photography.html' class='nav-title'>Photography</a>
+          <a href='research.html' class='nav-title'>Research</a>
+        </div>
+      </div>
+    </div>
+    <!-- RESPONSIVE HEADER FADE-IN -->
+    <div class='header-fade-in'>
+      <div class='header-inner'>
+        <button class="menu-toggle">
+          <svg width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+            <path stroke="black" stroke-width="2.3" d="M4 8 L26 8"></path>
+            <path stroke="black" stroke-width="2.3" d="M4 15 L26 15"></path>
+            <path stroke="black" stroke-width="2.3" d="M4 22 L26 22"></path>
+          </svg>
+        </button>
+        <div>
+          <a href='index.html' class='title'>Olaf Willner</a>
+        </div>
+        <div class="responsive-title-wrapper">
+          <a href='index.html' class='responsive-title'>Olaf Willner</a>
+        </div>
+        <div class='nav'>
+          <button href='#' class='contact-button'>CONTACT</button>
+          <div class='nav-main'>
+            <a href='#' class='nav-title'>EVENTS</a>
+            <a href='about-us.html' class='nav-title'>ABOUT US</a>
+            <a href='#' class='nav-title'>HOME</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class='main'>
+    <div class='main-inner'>
+      <div class='main-top'>
+        <div class='landing-headline'>
+          <div class='landing-headline-inner'>
+            <h1 class='headline'>Building a Better Future</h1>
+          </div>
+        </div>
+        <div class='landing-text'>
+          <div class='landing-text-inner'>
+            <p class='text'>Olaf Willner lives in London, carries a camera and studies at Cornell University.</p>
+          </div>
+        </div>
+      </div>
+      <div class='main-bottom'>
+      </div>
+    </div>
+  </section>
+  <section class='fill-section'>
+    <div class='fill-inner'>
+      <h1 class='fill-title'>About Us</h1>
+      <div class='body'>
+        <p class='body-text'>The CVL is a place where students are involved in the decisions of the school. We're here to work on improving the lycée's life, by organizing events, changing school policy and create a dialogue between the school and the students. The CVL, chaired by the head teacher and comprising a high school vice-president, brings together representatives of students, staff and parents who think together and make proposals on topics that affect your daily life.</p>
+      </div>
+    </div>
+  </section>
+  <section class='light-section'>
+    <div class='light-inner'>
+      <h1 class="light-title">Dialoguer, échanger, débattre</h1>
+      <div class='light-body'>
+        <p class="light-body-text">Le CVL est un lieu privilégié de dialogue et d’échanges entre lycéens et adultes de la communauté éducative. Vos représentants lycéens s’y expriment librement. Ils font valoir vos points de vue et vos attentes, évoquent vos problèmes et vos préoccupations, échangent des idées, réfléchissent. Ils sont vos porte-parole.</p>
+    </div>
+  </section>
+  <section class='footer'>
+    <div class='footer-inner'>
+      <h1 class='footer-title'>Olaf Willner 2021</h1>
+    </div>
+  </section>
+  <script src='https://code.jquery.com/jquery-latest.js'></script>
+  <script type='text/javascript'>
+    (function($) {
+        $(window).load(function() {
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 100) {
+                    $('.header-fade-in').fadeIn(150);
+                } else {
+                    $('.header-fade-in').fadeOut(100);
+                }
+            });
+        });
+    })(jQuery);
+</script>
+</body>
+</html>
