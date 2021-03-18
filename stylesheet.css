@@ -157,7 +157,7 @@ a {
 
 .nav-title {
   font-style: normal;
-  color: #2d3436;
+  color: #000;
   font-size:16px;
   font-weight: 400;
   /* float: right; */
@@ -171,7 +171,7 @@ a {
 }
 
 .nav-title:hover {
-  color: #919C9F;
+  color: #2d3436;
   -webkit-transition: color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out;
 }
@@ -206,7 +206,7 @@ a {
 	width: 100%;
 }
 
-.contact-button {
+/* .contact-button {
   margin-top:28px;
   display:inline-block;
   color:#FFF;
@@ -226,7 +226,7 @@ a {
   font-style: normal;
   float: right;
   display: inline-block;
-}
+} */
 
 .contact-button:hover {
   background-color:#2d3436;
@@ -236,12 +236,30 @@ a {
 .main {
   height: 70vh;
   width: 100%;
-  /* background-image: url("andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg");
-  background-size: 1000px 600px; */
 }
 
 .main-inner {
-  margin-top: 120px;
+  margin-top: 150px;
+  height: 100%;
+}
+
+.main-bottom {
+  width: 100%;
+  height: 100%;
+  margin: 1px;
+}
+
+.main-img-wrapper {
+  margin-top: 100px;
+}
+
+.responsive-main-img-wrapper {
+  /* max-width: 100%;
+  height: auto; */
+}
+
+.main-img {
+  width: 100%;
   height: 100%;
 }
 
@@ -495,6 +513,7 @@ a {
   }
   .main-inner {
     margin-left: 7%;
+    margin-right: 7%;
   }
 }
 
@@ -516,5 +535,6 @@ a {
   }
   .main-inner {
     margin-left: 7%;
+    margin-right: 7%;
   }
 }
