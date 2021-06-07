@@ -465,6 +465,40 @@ a {
   }
 }
 
+/* about page styling */
+
+.about-text-title {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.about-text {
+  font-family: 'Proxima-Nova', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  font-size: 20px;
+  position: relative;
+  margin-top: 0;
+  text-align: left;
+}
+
+.text-link {
+  color: #000;
+  -webkit-transition: .2s ease-out;
+}
+
+.text-link:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.email-link {
+  font-weight: 300;
+  font-size: 20px;
+  border-bottom: 1px solid #000;
+}
+
 /* Responsive styling */
 
 @media only screen and (max-width: 800px) {
@@ -498,6 +532,13 @@ a {
     margin-left:5%;
     margin-right: 5%;
   }
+
+  .about-text {
+    font-size: 18px;
+    margin-left:5%;
+    margin-right: 5%;
+  }
+
   .title {
     display: none;
   }
