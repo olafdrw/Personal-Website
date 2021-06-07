@@ -294,7 +294,8 @@ a {
 /* photography.html images layout */
 
 .photography-main {
-  margin-top: 50px;
+  margin-top: 5%;
+  margin-bottom: 5%
 }
 
 .row {
