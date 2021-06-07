@@ -533,10 +533,17 @@ a {
     margin-right: 5%;
   }
 
-  .about-text {
+  .about-text, .about-text-title, .email-link {
+    margin-left:7%;
+    margin-right:7%;
+  }
+
+  .about-text, .email-link {
     font-size: 18px;
-    margin-left:5%;
-    margin-right: 5%;
+  }
+
+  .about-text-title {
+    font-size: 24px;
   }
 
   .title {
