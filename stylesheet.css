@@ -7,7 +7,6 @@ body, html {
   font-family: 'Proxima-Nova', sans-serif;
 }
 
-
 a {
   text-decoration: none;
 }
@@ -228,19 +227,15 @@ a {
   display: inline-block;
 } */
 
-.contact-button:hover {
-  background-color:#2d3436;
-  color:#FFF;
-}
 
 .main {
-  height: 70vh;
   width: 100%;
+  padding: 1px
 }
 
 .main-inner {
   margin-top: 150px;
-  height: 100%;
+  margin-bottom: 150px;
 }
 
 .main-bottom {
@@ -251,6 +246,7 @@ a {
 
 .main-img-wrapper {
   margin-top: 100px;
+  height: 100%;
 }
 
 .responsive-main-img-wrapper {
@@ -261,30 +257,6 @@ a {
 .main-img {
   width: 100%;
   height: 100%;
-}
-
-.landing-headline, .landing-text, .landing-button {
-  display: block;
-}
-
-.headline {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-style: normal;
-  color: #000000;
-  font-weight: 700;
-  position: relative;
-  margin-bottom: 15px;
-  text-align: left;
-}
-
-.team-headline {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-style: normal;
-  color: #2d3436;
-  font-weight: 700;
-  position: relative;
-  margin-bottom: 15px;
-  text-align: left;
 }
 
 .text {
@@ -298,136 +270,12 @@ a {
   text-align: center;
 }
 
-.poll-button {
-  margin-top: 100px;
-  display: block;
-  color: #FFF;
-  background-color:#43BEFE;
-  border:none;
-  font-size:22px;
-  text-decoration:none;
-  font-weight:600;
-  padding-top: 18px;
-  padding-bottom: 18px;
-  padding-left: 45px;
-  padding-right: 45px;
-  box-shadow: -1px 10px 25px #CCCCCC;
-  border-radius: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.poll-button:hover {
-  -webkit-transition:background-color .14s ease-out,color .14s ease-out;
-  -moz-transition:background-color .14s ease-out,color .14s ease-out;
-  -ms-transition:background-color .14s ease-out,color .14s ease-out;
-  -o-transition:background-color .14s ease-out,color .14s ease-out;
-  transition:background-color .14s ease-out,color .14s ease-out;
-  color:#FFF;
-}
-
-.fill-section {
-  margin-top: 0px;
-  float: left;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 400px;
-  clear: both;
-  background-color: #171523;
-  z-index: 0;
-  position: relative;
-}
-
-.fill-inner, .light-inner {
-  padding-left: 7%;
-  padding-right: 7%;
-}
-
-.fill-title {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-style: normal;
-  color: #ffffff;
-  font-size: 28px;
-  font-weight: 700;
-  position: relative;
-  margin-top: 35px;
-  margin-bottom: 15px;
-  background-color: #171523;
-  margin-left: 0;
-}
-
-.light-title {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-style: normal;
-  color: #171523;
-  font-size: 28px;
-  font-weight: 700;
-  position: relative;
-  margin-top: 35px;
-  margin-bottom: 15px;
-  margin-left: 0;
-}
-
-.body-text {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-style: normal;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 300;
-  position: relative;
-  line-height: 1.5em;
-  margin-top: 35px;
-  margin-bottom: 15px;
-  background-color: #171523;
-  margin-left: 0;
-}
-
-.light-body-text {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-style: normal;
-  color: #171523;
-  font-size: 16px;
-  font-weight: 300;
-  position: relative;
-  line-height: 1.5em;
-  margin-top: 35px;
-  margin-bottom: 15px;
-  margin-left: 0;
-}
-
-.light-section {
-  margin-top: 0px;
-  float: left;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 400px;
-  clear: both;
-  background-color: #ffffff;
-  z-index: 0;
-  position: relative;
-}
-
 .footer {
-  margin-top: 100px;
-  float: left;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 150px;
-  clear: both;
-  background-color: #E9F0F7;
-  z-index: 0;
-  position: relative;
+
 }
 
 .footer-title {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-style: normal;
-  color: #171523;
-  font-size: 28px;
-  font-weight: 700;
+
 }
 
 
