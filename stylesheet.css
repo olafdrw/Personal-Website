@@ -234,8 +234,8 @@ a {
 }
 
 .main-inner {
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .main-bottom {
@@ -245,7 +245,7 @@ a {
 }
 
 .main-img-wrapper {
-  margin-top: 100px;
+  margin-top: 10%;
   height: 100%;
 }
 
@@ -271,13 +271,25 @@ a {
 }
 
 .footer {
-
+  padding-bottom: 7%;
 }
 
-.footer-title {
-
+.footer-main {
+  margin-left: 7%;
+  margin-right: 7%;
+  text-align: center;
 }
 
+.footer-label, .footer-first {
+  font-family: freight-display-pro, serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 24px;
+}
+
+.footer-label {
+  margin-left: 7%;
+}
 
 /* photography.html images layout */
 
@@ -444,8 +456,7 @@ a {
     font-size: 32px;
   }
   .main-inner {
-    margin-left: 7%;
-    margin-right: 7%;
+    margin: 7%;
   }
 }
 

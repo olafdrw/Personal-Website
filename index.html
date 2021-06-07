@@ -2,20 +2,20 @@
 
 <html>
 <head>
-  <meta charset='UTF-8'>
-  <meta https-equiv='X-UA-Compatible' content='ie=edge'>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
-  <link rel='stylesheet' href='stylesheet.css'>
+  <meta charset="UTF-8">
+  <meta https-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+  <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="https://use.typekit.net/zeg4ytd.css">
-  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-  <link rel='shortcut icon' type='image/png' href='assets/favicon-personal-website-anthracite.png'/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="shortcut icon" type="image/png" href="assets/favicon-personal-website-anthracite.png"/>
   <title>Olaf Willner</title>
 </head>
 <body>
-  <section class='header'>
-    <div class='header-inner'>
+  <section class="header">
+    <div class="header-inner">
       <div>
-        <a href='index.html' class='title'>Olaf Willner</a>
+        <a href="index.html" class="title">Olaf Willner</a>
       </div>
       <button class="menu-toggle">
         <svg width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
@@ -25,19 +25,19 @@
         </svg>
       </button>
       <div class="responsive-title-wrapper">
-        <a href='index.html' class='responsive-title'>Olaf Willner</a>
+        <a href="index.html" class="responsive-title">Olaf Willner</a>
       </div>
-        <div class='nav'>   <!-- "nav-wrapper" -->
-        <div class='nav-main'>
-          <a href='about.html' class='nav-title'>About</a>
-          <a href='photography.html' class='nav-title'>Photography</a>
-          <a href='research.html' class='nav-title'>Research</a>
+        <div class="nav">   <!-- "nav-wrapper" -->
+        <div class="nav-main">
+          <a href="about.html" class="nav-title">About</a>
+          <a href="photography.html" class="nav-title">Photography</a>
+          <a href="research.html" class="nav-title">Research</a>
         </div>
       </div>
     </div>
     <!-- RESPONSIVE HEADER FADE-IN -->
-    <div class='header-fade-in'>
-      <div class='header-inner'>
+    <div class="header-fade-in">
+      <div class="header-inner">
         <button class="menu-toggle-responsive">
           <svg width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
             <path stroke="black" stroke-width="2.3" d="M4 8 L26 8"></path>
@@ -46,28 +46,28 @@
           </svg>
         </button>
         <div>
-          <a href='index.html' class='title'>Olaf Willner</a>
+          <a href="index.html" class="title">Olaf Willner</a>
         </div>
         <div class="responsive-title-wrapper">
-          <a href='index.html' class='responsive-title'>Olaf Willner</a>
+          <a href="index.html" class="responsive-title">Olaf Willner</a>
         </div>
-        <div class='nav'>
-          <div class='nav-main'>
-            <a href='about.html' class='nav-title'>About</a>
-            <a href='photography.html' class='nav-title'>Photography</a>
-            <a href='research.html' class='nav-title'>Research</a>
+        <div class="nav">
+          <div class="nav-main">
+            <a href="about.html" class="nav-title">About</a>
+            <a href="photography.html" class="nav-title">Photography</a>
+            <a href="research.html" class="nav-title">Research</a>
           </div>
         </div>
       </div>
     </div>
   </section>
   <!-- Main Non-Responsive Section -->
-  <section class='main'>
-    <div class='main-inner'>
-      <div class='main-top'>
-        <div class='landing-text'>
-          <div class='landing-text-inner'>
-            <p class='text'>Hi! I'm a student at Cornell University.</p>
+  <section class="main">
+    <div class="main-inner">
+      <div class="main-top">
+        <div class="landing-text">
+          <div class="landing-text-inner">
+            <p class="text">Hi! I"m a student at Cornell University.</p>
           </div>
         </div>
       </div>
@@ -76,17 +76,23 @@
       </div>
     </div>
   </section>
-  <section class="footer">
-  </section>
-  <script src='https://code.jquery.com/jquery-latest.js'></script>
-  <script type='text/javascript'>
+  <footer class="footer">
+    <div class="footer-wrapper">
+      <div class="footer-main">
+        <a href="https://www.linkedin.com/in/olaf-willner/" class="footer-first">LinkedIn</a>
+        <a href="mailto:ocd4@cornell.edu" class="footer-label">Contact</a>
+        <a href="https://github.com/olafdrw" class="footer-label">GitHub</a>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <script type="text/javascript">
     (function($) {
         $(window).load(function() {
             $(window).scroll(function(){
                 if ($(this).scrollTop() > 100) {
-                    $('.header-fade-in').fadeIn(150);
+                    $(".header-fade-in").fadeIn(150);
                 } else {
-                    $('.header-fade-in').fadeOut(100);
+                    $(".header-fade-in").fadeOut(100);
                 }
             });
         });
