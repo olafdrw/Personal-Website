@@ -333,7 +333,7 @@ a {
   font-size: 36px;
 }
 
-.about-text {
+.about-text-bio {
   font-family: 'Proxima-Nova', sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -342,6 +342,14 @@ a {
   position: relative;
   margin-top: 0;
   text-align: left;
+}
+
+.about-text-work {
+  line-height: 16px;
+  font-weight: 200;
+  color: #636e72;
+  font-size: 16px;
+  margin-top: 50px;
 }
 
 .text-link {
@@ -394,12 +402,12 @@ a {
     margin-right: 5%;
   }
 
-  .about-text, .about-text-title, .email-link {
+  .about-text-bio, .about-text-title, .email-link {
     margin-left:7%;
     margin-right:7%;
   }
 
-  .about-text, .email-link {
+  .about-text-bio, .email-link {
     font-size: 18px;
   }
 
