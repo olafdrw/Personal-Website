@@ -64,7 +64,7 @@ a {
   position: relative;
 }
 
-.responsive-title {
+.r-title {
   font-family: freight-display-pro, serif;
   font-weight: 600;
   font-style: normal;
@@ -72,7 +72,7 @@ a {
   font-size: 26px;
 }
 
-.responsive-menu-title {
+.r-menu-title {
   font-family: freight-display-pro, serif;
   font-size: 26px;
   font-weight: 600;
@@ -81,7 +81,7 @@ a {
   padding-left: 30%;
 }
 
-.responsive-open {
+.r-open {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
@@ -143,7 +143,7 @@ a {
   border-radius: 10px;
 }
 
-.responsive-title-wrapper {
+.r-title-wrapper {
   height: 100%;
   margin-right: 40%;
 }
@@ -245,17 +245,15 @@ a {
 }
 
 .main-img-wrapper {
+  box-sizing: border-box;
   margin-top: 10%;
+  left:0;
+  right:0;
   height: 100%;
 }
 
-.responsive-main-img-wrapper {
-  /* max-width: 100%;
-  height: auto; */
-}
-
 .main-img {
-  width: 100%;
+  width: 86%;
   height: 100%;
 }
 
@@ -365,7 +363,7 @@ a {
 
 /* Responsive Menu */
 
-.responsive-menu {
+.r-menu {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -375,7 +373,7 @@ a {
   z-index: 999;
 }
 
-.responsive-menu-header {
+.r-menu-header {
   width: 100%;
   float: none;
   display: block;
@@ -384,12 +382,27 @@ a {
   position: relative;
 }
 
-.responsive-menu-header-inner {
+.r-menu-header-inner {
     height: 90px;
     display: block;
     padding-left: 7%;
     padding-right: 7%;
     float: none;
+}
+
+.r-menu-nav {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.r-menu-nav-title {
+  display: block;
+  color: #fff;
+  font-family: freight-display-pro, serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 50px;
 }
 
 /* Responsive */
@@ -407,7 +420,7 @@ a {
     transition: all 0.2s ease;
   }
 
-  .nav nav-title {
+  .nav, .nav-title {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -442,7 +455,7 @@ a {
   .title {
     display: none;
   }
-  .responsive-title {
+  .r-title {
     display: visible;
   }
   .contact-button {
@@ -458,9 +471,14 @@ a {
   .main-inner {
     margin-top: 0px;
   }
-  .column {
-    flex: 50%;
-    max-width: 50%;
+
+  .main-img {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .row {
+    align-items: center;
   }
 }
 
@@ -479,7 +497,7 @@ a {
   .poll-button {
     float: left;
   }
-  .responsive-title {
+  .r-title {
     display: none;
   }
   .open {
@@ -500,7 +518,7 @@ a {
   .poll-button {
     float: left;
   }
-  .responsive-title, .responsive-title-wrapper {
+  .r-title, .r-title-wrapper {
     display: none;
   }
   .open {
@@ -513,7 +531,7 @@ a {
     margin-left: 7%;
     margin-right: 7%;
   }
-  .responsive-open {
+  .r-open {
     display: none;
   }
 }

@@ -32,8 +32,8 @@
           <path stroke="black" stroke-width="2.3" d="M4 22 L26 22"></path>
         </svg>
       </a>
-      <div class="responsive-title-wrapper">
-        <a href="index.html" class="responsive-title">Olaf Willner</a>
+      <div class="r-title-wrapper">
+        <a href="index.html" class="r-title">Olaf Willner</a>
       </div>
         <div class="nav">   <!-- "nav-wrapper" -->
         <div class="nav-main">
@@ -59,8 +59,8 @@
         <div>
           <a href="index.html" class="title">Olaf Willner</a>
         </div>
-        <div class="responsive-title-wrapper">
-          <a href="index.html" class="responsive-title">Olaf Willner</a>
+        <div class="r-title-wrapper">
+          <a href="index.html" class="r-title">Olaf Willner</a>
         </div>
         <div class="nav">
           <div class="nav-main">
@@ -73,7 +73,7 @@
     </div>
   </section>
 
-  <!-- Main Non-Responsive Section -->
+  <!-- Main Non-r Section -->
 
   <section class="main">
     <div class="main-inner">
@@ -92,11 +92,11 @@
 
   <!-- Responsive Menu -->
 
-  <div class="responsive-menu">
-    <div class="responsive-menu-inner">
-      <div class="responsive-menu-header">
-        <div class="responsive-menu-header-inner">
-          <p class="responsive-menu-title">Olaf Willner</p>
+  <div class="r-menu">
+    <div class="r-menu-inner">
+      <div class="r-menu-header">
+        <div class="r-menu-header-inner">
+          <p class="r-menu-title">Olaf Willner</p>
           <div class="close">
             <svg width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30">
               <line x1="4" y1="4" x2="25" y2="25" stroke="#fff" stroke-width="2.3" />
@@ -104,6 +104,11 @@
             </svg>
           </div>
         </div>
+      </div>
+      <div class="r-menu-nav">
+        <a href="about.html" class="r-menu-nav-title">About</a>
+        <a href="photography.html" class="r-menu-nav-title">Photography</a>
+        <a href="research.html" class="r-menu-nav-title">Research</a>
       </div>
     </div>
   </div>
@@ -120,15 +125,15 @@
   <script type="text/javascript">
 
   $(document).ready(function() {
-   $('.responsive-menu').hide();
+   $('.r-menu').hide();
   });
 
   $(".open").click(function(){
-  $(".responsive-menu").fadeIn(300);
+  $(".r-menu").fadeIn(300);
   });
 
   $(".close").click(function(){
-  $(".responsive-menu").fadeOut(300);
+  $(".r-menu").fadeOut(300);
   });
 
     (function($) {
