@@ -17,13 +17,13 @@
       <div>
         <a href="index.html" class="title">Olaf Willner</a>
       </div>
-      <button class="menu-toggle">
+      <a class="open">
         <svg width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
           <path stroke="black" stroke-width="2.3" d="M4 8 L26 8"></path>
           <path stroke="black" stroke-width="2.3" d="M4 15 L26 15"></path>
           <path stroke="black" stroke-width="2.3" d="M4 22 L26 22"></path>
         </svg>
-      </button>
+      </a>
       <div class="responsive-title-wrapper">
         <a href="index.html" class="responsive-title">Olaf Willner</a>
       </div>
@@ -35,11 +35,14 @@
         </div>
       </div>
     </div>
+  </section>
+
     <!-- Responsive Header Fade-In -->
+
     <div class="header-fade-in">
       <div class="header-inner">
-        <button class="menu-toggle-responsive">
-          <svg width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+        <button class="open">
+          <svg width="30" height="30" fill="none" viewBox="0 0 30 30">
             <path stroke="black" stroke-width="2.3" d="M4 8 L26 8"></path>
             <path stroke="black" stroke-width="2.3" d="M4 15 L26 15"></path>
             <path stroke="black" stroke-width="2.3" d="M4 22 L26 22"></path>
@@ -61,7 +64,9 @@
       </div>
     </div>
   </section>
+
   <!-- Main Non-Responsive Section -->
+
   <section class="main">
     <div class="main-inner">
       <div class="main-top">
@@ -76,6 +81,24 @@
       </div>
     </div>
   </section>
+
+  <!-- Responsive Menu -->
+
+  <div class="responsive-menu">
+    <div class="responsive-menu-inner">
+      <div class="responsive-menu-header">
+        <div class="responsive-menu-header-inner">
+          <p class="responsive-menu-title">Olaf Willner</p>
+          <div class="close">
+            <svg width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30">
+              <line x1="4" y1="4" x2="25" y2="25" stroke="#fff" stroke-width="2.3" />
+              <line x1="25" y1="4" x2="4" y2="25" stroke="#fff" stroke-width="2.3" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer class="footer">
     <div class="footer-wrapper">
       <div class="footer-main">
@@ -86,6 +109,19 @@
   </footer>
   <script src="https://code.jquery.com/jquery-latest.js"></script>
   <script type="text/javascript">
+
+  $(document).ready(function() {
+   $('.responsive-menu').hide();
+  });
+
+  $(".open").click(function(){
+  $(".responsive-menu").fadeIn(300);
+  });
+
+  $(".close").click(function(){
+  $(".responsive-menu").fadeOut(300);
+  });
+
     (function($) {
         $(window).load(function() {
             $(window).scroll(function(){
@@ -96,6 +132,7 @@
                 }
             });
         });
+
     })(jQuery);
 </script>
 </body>
