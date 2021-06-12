@@ -344,14 +344,6 @@ a {
   text-align: left;
 }
 
-.about-text-work {
-  line-height: 16px;
-  font-weight: 200;
-  color: #636e72;
-  font-size: 16px;
-  margin-top: 50px;
-}
-
 .text-link {
   color: #000;
   -webkit-transition: .2s ease-out;
