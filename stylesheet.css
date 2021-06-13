@@ -1,6 +1,7 @@
 /* Olaf Willner, 2019 */
 
-html {
+html, body {
+  height: 100%;
   overflow-x: hidden;
 }
 
@@ -12,6 +13,7 @@ body {
   overflow: auto;
   margin:0;
   padding:0;
+  overscroll-behavior: none;
 }
 
 a {
